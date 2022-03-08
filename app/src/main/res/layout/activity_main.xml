@@ -63,7 +63,8 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
         app:layout_constraintLeft_toRightOf="@+id/buttonPorcentaje"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/buttonMultiplicacion"/>
+        app:layout_constraintBottom_toTopOf="@+id/buttonMultiplicacion"
+        android:onClick="operatorButtonClicked"/>
     <Button
         android:id="@+id/buttonMultiplicacion"
         android:layout_width="0dp"
@@ -74,7 +75,8 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonDivision"
         app:layout_constraintLeft_toRightOf="@+id/button9"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/buttonResta"/>
+        app:layout_constraintBottom_toTopOf="@+id/buttonResta"
+        android:onClick="operatorButtonClicked"/>
     <Button
         android:id="@+id/buttonResta"
         android:layout_width="0dp"
@@ -85,7 +87,8 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonMultiplicacion"
         app:layout_constraintLeft_toRightOf="@+id/button6"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/buttonSuma"/>
+        app:layout_constraintBottom_toTopOf="@+id/buttonSuma"
+        android:onClick="operatorButtonClicked"/>
     <Button
         android:id="@+id/buttonSuma"
         android:layout_width="0dp"
@@ -96,7 +99,8 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonResta"
         app:layout_constraintLeft_toRightOf="@+id/button3"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/buttonResultado"/>
+        app:layout_constraintBottom_toTopOf="@+id/buttonResultado"
+        android:onClick="operatorButtonClicked"/>
 
     <Button
         android:id="@+id/buttonResultado"
